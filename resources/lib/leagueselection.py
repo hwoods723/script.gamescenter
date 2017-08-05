@@ -38,7 +38,7 @@ class Main(xbmcgui.WindowXMLDialog):
 	def onInit(self):
 		self.getControl(32540).setImage(os.path.join(addon_path,"resources","img","goal.png"))
 		xbmc.executebuiltin("SetProperty(loading-script-matchcenter-leagueselection,1,home)")
-		leagues = api.Search().Leagues(sport="American%20football")
+		leagues = api.Search().Leagues(sport="American Football")
 		leagues_to_be_shown = ssutils.get_league_tables_ids()
 		items = []
 		if leagues:
