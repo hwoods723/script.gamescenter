@@ -29,15 +29,15 @@ def get_league_tables_ids():
 	if addon.getSetting("t-nba") == "true": tables.append(4387)
 	if addon.getSetting("t-mlb") == "true": tables.append(4424)
 	if addon.getSetting("t-nhl") == "true": tables.append(4380)
-	if addon.getSetting("t-liganos") == "true": tables.append(4344)
-	if addon.getSetting("t-eredivisie") == "true": tables.append(4337)
-	if addon.getSetting("t-bundesliga") == "true": tables.append(4331)
-	if addon.getSetting("t-russianpl") == "true": tables.append(4355)
-	if addon.getSetting("t-jupiler") == "true": tables.append(4338)
-	if addon.getSetting("t-scotlandpl") == "true": tables.append(4330)
-	if addon.getSetting("t-mls") == "true": tables.append(4346)
-	if addon.getSetting("t-argentina") == "true": tables.append(4406)
-	if addon.getSetting("t-brasileirao") == "true": tables.append(4351)
+	if addon.getSetting("t-gleague") == "true": tables.append(4388)
+	if addon.getSetting("t-cba") == "true": tables.append(4442)
+	if addon.getSetting("t-lnb") == "true": tables.append(4423)
+	if addon.getSetting("t-bbl") == "true": tables.append(4431)
+	if addon.getSetting("t-bbun") == "true": tables.append(4441)
+	if addon.getSetting("t-nbl") == "true": tables.append(4434)
+	if addon.getSetting("t-lba") == "true": tables.append(4433)
+	if addon.getSetting("t-acb") == "true": tables.append(4408)
+	if addon.getSetting("t-greek") == "true": tables.append(4452)
 	if addon.getSetting("t-ukra") == "true": tables.append(4354)
 	if addon.getSetting("t-australia") == "true": tables.append(4356)
 	if addon.getSetting("t-greece") == "true": tables.append(4336)
@@ -61,15 +61,15 @@ def get_league_id_no_games():
 	if addon.getSetting("no-livescores-league") == "1": return 4387
 	if addon.getSetting("no-livescores-league") == "2": return 4424
 	if addon.getSetting("no-livescores-league") == "3": return 4380
-	if addon.getSetting("no-livescores-league") == "4": return 4344
-	if addon.getSetting("no-livescores-league") == "5": return 4337
-	if addon.getSetting("no-livescores-league") == "6": return 4331
-	if addon.getSetting("no-livescores-league") == "7": return 4355
-	if addon.getSetting("no-livescores-league") == "8": return 4338
-	if addon.getSetting("no-livescores-league") == "9": return 4330
-	if addon.getSetting("no-livescores-league") == "10": return 4346
-	if addon.getSetting("no-livescores-league") == "11": return 4406
-	if addon.getSetting("no-livescores-league") == "12": return 4351
+	if addon.getSetting("no-livescores-league") == "4": return 4388
+	if addon.getSetting("no-livescores-league") == "5": return 4442
+	if addon.getSetting("no-livescores-league") == "6": return 4423
+	if addon.getSetting("no-livescores-league") == "7": return 4431
+	if addon.getSetting("no-livescores-league") == "8": return 4441
+	if addon.getSetting("no-livescores-league") == "9": return 4434
+	if addon.getSetting("no-livescores-league") == "10": return 4433
+	if addon.getSetting("no-livescores-league") == "11": return 4408
+	if addon.getSetting("no-livescores-league") == "12": return 4452
 	if addon.getSetting("no-livescores-league") == "13": return 4354
 	if addon.getSetting("no-livescores-league") == "14": return 4356
 	if addon.getSetting("no-livescores-league") == "15": return 4336
