@@ -25,10 +25,10 @@
 		<setting id="t-lba" type="bool" label="Italian Lega Basketball" default="false" />
 		<setting id="t-acb" type="bool" label="Spanish Liga ACB" default="false" />
 		<setting id="t-greek" type="bool" label="Greek Basketball League" default="false" />
-		<setting id="t-ukra" type="bool" label="Ucranian Premier League" default="false" />
-		<setting id="t-australia" type="bool" label="Australian A-League" default="false" />
-		<setting id="t-greece" type="bool" label="Greek Superleague Greece" default="false" />
-		<setting id="t-danish" type="bool" label="Danish Superliga" default="false" />
+		<setting id="t-ncaaf" type="bool" label="NCAA Football" default="false" />
+		<setting id="t-ncaab" type="bool" label="NCAA Men's Basketball" default="false" />
+		<setting id="t-wnba" type="bool" label="WNBA" default="false" />
+		<setting id="t-ncaawb" type="bool" label="NCAA Women's Basketball" default="false" />
 		<setting id="t-norway" type="bool" label="Norwegian Tippeligaen" default="false" />
 		<setting id="t-china" type="bool" label="Chinese SuperLeague" default="false" />
 		<setting id="t-norway" type="bool" label="Norwegian Tippeligaen" default="false" />
