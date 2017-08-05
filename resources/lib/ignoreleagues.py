@@ -39,7 +39,7 @@ class Select(xbmcgui.WindowXMLDialog):
 	def onInit(self):
 		self.getControl(1).setLabel(translate(32003))
 		self.getControl(3).setVisible(False)
-		leagues = api.Search().Leagues(sport="American%20football")
+		leagues = api.Search().Leagues(sport="Basketball")
 		ignored_through_context_menu = self.already_ignored
 		if leagues:
 			items = []
