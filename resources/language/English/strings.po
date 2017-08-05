@@ -13,7 +13,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 msgctxt "#32000"
-msgid "Match Center"
+msgid "GAMESCENTER"
 msgstr ""
 
 msgctxt "#32001"
