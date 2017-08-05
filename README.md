@@ -1,4 +1,4 @@
-# script.matchcenter
+# script.GAMESCENTER
 ![Logo](https://github.com/hwoods723/script.matchcenter/blob/master/icon.png)
 
 This addon brings a window that can be mapped to a remote key to show livescores for the current live american sports games, access match information (goals, cards, subs, lineups) or follow what others are saying about the match in twitter.
