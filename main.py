@@ -63,15 +63,8 @@ else:
         keymapeditor.run()
     elif params[0] == 'removecache':
         AddonCache.removeCachedData()
-    elif params[0] == 'removetwitterhistory':
-        tweet.remove_twitter_hashtag_history()
     elif params[0] == 'livescores':
         livescores.start(standalone=True)
-    elif params[0] == 'twitter':
-        if not params[1]:
-            tweets.start()
-        else:
-            tweets.start(twitterhash=params[1], standalone=True)
     elif params[0] == 'leagueselection':
         leagueselection.start(standalone=True)
     elif params[0] == 'football_league_selection':
