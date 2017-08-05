@@ -38,22 +38,12 @@ def get_league_tables_ids():
 	if addon.getSetting("t-lba") == "true": tables.append(4433)
 	if addon.getSetting("t-acb") == "true": tables.append(4408)
 	if addon.getSetting("t-greek") == "true": tables.append(4452)
-	if addon.getSetting("t-ukra") == "true": tables.append(4354)
-	if addon.getSetting("t-australia") == "true": tables.append(4356)
-	if addon.getSetting("t-greece") == "true": tables.append(4336)
-	if addon.getSetting("t-danish") == "true": tables.append(4340)
-	if addon.getSetting("t-norway") == "true": tables.append(4358)
-	if addon.getSetting("t-china") == "true": tables.append(4359)
-	if addon.getSetting("t-sweden1") == "true": tables.append(4347)
-	if addon.getSetting("t-echampionship") == "true": tables.append(4329)
-	if addon.getSetting("t-eleague1") == "true": tables.append(4396)
-	if addon.getSetting("t-eleague2") == "true": tables.append(4397)
-	if addon.getSetting("t-sadelante") == "true": tables.append(4400)
-	if addon.getSetting("t-fleague2") == "true": tables.append(4401)
-	if addon.getSetting("t-ssuperettan") == "true": tables.append(4403)	
-	
+	if addon.getSetting("t-ncaaf") == "true": tables.append(0000)
+	if addon.getSetting("t-ncaab") == "true": tables.append(0000)
+	if addon.getSetting("t-wnba") == "true": tables.append(0000)
+	if addon.getSetting("t-ncaawb") == "true": tables.append(0000)
 	if not tables:
-		tables.append(4391)
+		tables.append(4387)
 	return tables
 
 def get_league_id_no_games():
@@ -70,19 +60,11 @@ def get_league_id_no_games():
 	if addon.getSetting("no-livescores-league") == "10": return 4433
 	if addon.getSetting("no-livescores-league") == "11": return 4408
 	if addon.getSetting("no-livescores-league") == "12": return 4452
-	if addon.getSetting("no-livescores-league") == "13": return 4354
-	if addon.getSetting("no-livescores-league") == "14": return 4356
-	if addon.getSetting("no-livescores-league") == "15": return 4336
-	if addon.getSetting("no-livescores-league") == "16": return 4340
-	if addon.getSetting("no-livescores-league") == "17": return 4358
-	if addon.getSetting("no-livescores-league") == "18": return 4359
-	if addon.getSetting("no-livescores-league") == "19": return 4347
-	if addon.getSetting("no-livescores-league") == "20": return 4329
-	if addon.getSetting("no-livescores-league") == "21": return 4396
-	if addon.getSetting("no-livescores-league") == "22": return 4397
-	if addon.getSetting("no-livescores-league") == "23": return 4400
-	if addon.getSetting("no-livescores-league") == "24": return 4401
-	if addon.getSetting("no-livescores-league") == "25": return 4403
+	if addon.getSetting("no-livescores-league") == "13": return 0000
+	if addon.getSetting("no-livescores-league") == "14": return 0000
+	if addon.getSetting("no-livescores-league") == "15": return 0000
+	if addon.getSetting("no-livescores-league") == "16": return 0000
+	if addon.getSetting("no-livescores-league") == "17": return 0000
 
 	
 
