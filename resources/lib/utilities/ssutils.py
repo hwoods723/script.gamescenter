@@ -30,7 +30,7 @@ def get_league_tables_ids():
 	if addon.getSetting("t-mlb") == "true": tables.append(4424)
 	if addon.getSetting("t-nhl") == "true": tables.append(4380)
 	if not tables:
-		tables.append(4328)
+		tables.append(4391)
 	return tables
 
 def get_league_id_no_games():
