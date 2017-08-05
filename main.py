@@ -29,7 +29,7 @@ from resources.lib import leaguetables
 from resources.lib import eventdetails
 from resources.lib import mainmenu
 from resources.lib import ignoreleagues
-from resources.lib import tweets
+from resources.lib import football_league_selection
 from resources.lib import leagueselection
 from resources.lib import eventdetails
 from resources.lib import matchhistory
@@ -74,6 +74,8 @@ else:
             tweets.start(twitterhash=params[1], standalone=True)
     elif params[0] == 'leagueselection':
         leagueselection.start(standalone=True)
+    elif params[0] == 'football_league_selection':
+        football_league_selection.start(standalone=True)
     elif params[0] == 'leaguetables' and params[1]:
         leaguetables.start_table(leagueid=params[1])
     elif params[0] == 'matchhistory' and params[1]:
