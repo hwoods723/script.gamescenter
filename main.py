@@ -35,7 +35,6 @@ from resources.lib import eventdetails
 from resources.lib import matchhistory
 from resources.lib.utilities.cache import AddonCache
 from resources.lib.utilities import keymapeditor
-from resources.lib.utilities import tweet
 from resources.lib.utilities.common_addon import *
  
 def get_params():
