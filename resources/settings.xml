@@ -16,15 +16,15 @@
 		<setting id="t-nba" type="bool" label="NBA" default="true" />
 		<setting id="t-mlb" type="bool" label="MLB" default="true" />
 		<setting id="t-nhl" type="bool" label="NHL" default="true" />
-		<setting id="t-liganos" type="bool" label="Portuguese Liga Nos" default="true" />
-		<setting id="t-eredivisie" type="bool" label="Dutch Eredivisie" default="true" />
-		<setting id="t-bundesliga" type="bool" label="German Bundesliga" default="true" />
-		<setting id="t-russianpl" type="bool" label="Russian Premier League" default="false" />
-		<setting id="t-jupiler" type="bool" label="Belgian Jupiler League" default="false" />
-		<setting id="t-scotlandpl" type="bool" label="Scottish Premier League" default="false" />
-		<setting id="t-mls" type="bool" label="American Major League Soccer" default="false" />
-		<setting id="t-argentina" type="bool" label="Argentina Primera Division" default="false" />
-		<setting id="t-brasileirao" type="bool" label="Brazilian Brasileirão" default="false" />
+		<setting id="t-gleague" type="bool" label="G-League" default="true" />
+		<setting id="t-cba" type="bool" label="Chinese Basketball Association" default="true" />
+		<setting id="t-lnb" type="bool" label="LNB" default="true" />
+		<setting id="t-bbl" type="bool" label="British Basketball League" default="false" />
+		<setting id="t-bbun" type="bool" label="Basketball Bundesliga" default="false" />
+		<setting id="t-nbl" type="bool" label="Australian NBL" default="false" />
+		<setting id="t-lba" type="bool" label="Italian Lega Basketball" default="false" />
+		<setting id="t-acb" type="bool" label="Spanish Liga ACB" default="false" />
+		<setting id="t-greek" type="bool" label="Greek Basketball League" default="false" />
 		<setting id="t-ukra" type="bool" label="Ucranian Premier League" default="false" />
 		<setting id="t-australia" type="bool" label="Australian A-League" default="false" />
 		<setting id="t-greece" type="bool" label="Greek Superleague Greece" default="false" />
