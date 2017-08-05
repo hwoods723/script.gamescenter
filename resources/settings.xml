@@ -12,33 +12,11 @@
 	</category>
 	<category label="32007">
 		<setting label="32009" type="lsep" />
-		<setting id="t-bpl" type="bool" label="English Premier league" default="true" />
-		<setting id="t-bbva" type="bool" label="Spanish La Liga" default="true" />
-		<setting id="t-seriea" type="bool" label="Italian Serie A" default="true" />
-		<setting id="t-fleague1" type="bool" label="French Ligue One" default="true" />
-		<setting id="t-liganos" type="bool" label="Portuguese Liga Nos" default="true" />
-		<setting id="t-eredivisie" type="bool" label="Dutch Eredivisie" default="true" />
-		<setting id="t-bundesliga" type="bool" label="German Bundesliga" default="true" />
-		<setting id="t-russianpl" type="bool" label="Russian Premier League" default="false" />
-		<setting id="t-jupiler" type="bool" label="Belgian Jupiler League" default="false" />
-		<setting id="t-scotlandpl" type="bool" label="Scottish Premier League" default="false" />
-		<setting id="t-mls" type="bool" label="American Major League Soccer" default="false" />
-		<setting id="t-argentina" type="bool" label="Argentina Primera Division" default="false" />
-		<setting id="t-brasileirao" type="bool" label="Brazilian Brasileirão" default="false" />
-		<setting id="t-ukra" type="bool" label="Ucranian Premier League" default="false" />
-		<setting id="t-australia" type="bool" label="Australian A-League" default="false" />
-		<setting id="t-greece" type="bool" label="Greek Superleague Greece" default="false" />
-		<setting id="t-danish" type="bool" label="Danish Superliga" default="false" />
-		<setting id="t-norway" type="bool" label="Norwegian Tippeligaen" default="false" />
-		<setting id="t-china" type="bool" label="Chinese SuperLeague" default="false" />
-		<setting id="t-norway" type="bool" label="Norwegian Tippeligaen" default="false" />
-		<setting id="t-sweden1" type="bool" label="Swedish Allsvenskan" default="false" />
-		<setting id="t-echampionship" type="bool" label="English League Championship" default="false" />
-		<setting id="t-eleague1" type="bool" label="English League 1" default="false" />
-		<setting id="t-eleague2" type="bool" label="English League 2" default="false" />
-		<setting id="t-sadelante" type="bool" label="Spanish Adelante" default="false" />
-		<setting id="t-fleague2" type="bool" label="French Ligue 2" default="false" />
-		<setting id="t-ssuperettan" type="bool" label="Swedish Superettan" default="false" />
+		<setting id="t-nfl" type="bool" label="NFL" default="true" />
+		<setting id="t-nba" type="bool" label="NBA" default="true" />
+		<setting id="t-mlb" type="bool" label="MLB" default="true" />
+		<setting id="t-nhl" type="bool" label="NHL" default="true" />
+		
 	</category>
 	<category label="32010">
 		<setting label="32011" type="slider" id="twitter-update-time" default="2" range="1,1,30" option="int" />
