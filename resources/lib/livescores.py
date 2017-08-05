@@ -78,7 +78,7 @@ class Main(xbmcgui.WindowXMLDialog):
 		return
 
 	def getLivescores(self):
-		self.livescoresdata = api.Livescores().Football()
+		self.livescoresdata = api.Livescores().Basketball()
 		return
 
 	def set_no_games(self):
